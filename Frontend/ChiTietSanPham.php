@@ -42,7 +42,7 @@
                     <form method='post' class=''  method='post' >
                            <div class='row mx-auto'>
                                 <div class='text-center col-5 m-5'>
-                                    <img class='my-3'  src='pic/SanPham/$row[3]' width='400px' alt='' class='img-sanpham'>
+                                    <img class='my-3'  src='$row[3]' width='400px' alt='' class='img-sanpham'>
                                     <p >***Lưu Ý: Hình ảnh chỉ mang tính chất minh hoạ. Sản phẩm là đá tự nhiên nên vân đá có thể thay đổi.</p>
                                 </div>
                                 <div class='col-5 mt-5'>

@@ -37,10 +37,10 @@
                     echo "
                         <div class ='mx-auto col-6 col-sm-4 col-md-3 p-2 mt-4' index='$row[0]'>
                             <div class='card h-90'>
-                              <a href='ChiTietSanPham.php?id=$row[0]'><img class='card-img-top' src='pic/SanPham/$row[2]'></a> 
+                              <a href='ChiTietSanPham.php?id=$row[0]'><img class='card-img-top' src='$row[3]'></a> 
                                <p class='card-text text-center'>$row[1]</p>
-                               <p>Giá :$row[3] </p>
-                               <p>Chiết Khấu :$row[4] </p>
+                               <p>Giá :$row[4] </p>
+                               <p>Chiết Khấu :$row[5] % </p>
                                <a href='ChiTietSanPham.php?id=$row[0]'><div class='btn btn-primary'>Chi Tiết </div></a>
                             </div>
                          </div>

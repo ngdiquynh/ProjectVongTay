@@ -16,8 +16,8 @@
   <img src='pic/AN LẠC (1).png' width='120px'>
 </a>
 
-  <div class='collapse navbar-collapse' id='navbarTogglerDemo03'>
-    <ul class='navbar-nav mr-auto mt-lg-0'>
+  <div class=' collapse navbar-collapse' id='navbarTogglerDemo03'>
+    <ul class='mr-5 navbar-nav mr-auto mt-lg-0'>
       <li class='nav-item mx-2 '>
          <a class='nav-link' href='home.php'><i class='fa fa-home'></i> Trang Chủ</a>
       </li>
