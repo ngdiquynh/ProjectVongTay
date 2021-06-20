@@ -32,10 +32,11 @@
   </li>
    
     </ul>
-    <form class='form-inline my-2 my-lg-0'>
+    <form class='form-inline my-2 my-lg-0' method='GET' action='search.php'>
       <input
         class='form-control mr-sm-2'
         type='search'
+        name='keyword'
         placeholder='Nhập Sản Phẩm'
         aria-label='Search'
       />

@@ -45,14 +45,16 @@
                     </li>
                 </a>
                 <div class='border-search'>  
+                    <form action='search.php' method='GET'>
                     <a>Tìm Kiếm</a> 
                     <div class='search'>
                         <div class='icon'></div>
                         <div class='input'>
-                            <input type='text' placeholder='Tìm kiếm' id='mysearch'>
+                            <input type='text' placeholder='Tìm kiếm' name='keyword' id='mysearch'>
                         </div>
                         <span class='clear' onclick='document.getElementById('mysearch').value = '''></span>
                     </div>
+                    </form>
                 </div>
                 
 
